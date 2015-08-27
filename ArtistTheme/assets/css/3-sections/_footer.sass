@@ -1,0 +1,38 @@
+footer
+	background: url(../img/header-bg3.jpg) center center
+	background-size: cover
+
+	.lockup
+		padding: 50px 30px
+		+clearfix
+
+		.logo
+			width: 50px
+			height: 50px
+			float: left
+			margin-right: 30px
+
+			path
+				fill: rgba(0,0,0,0.4)
+
+		.content-wrap
+			float: left
+
+			nav
+				margin-bottom: 5px
+
+				a
+					@extend %small-bold
+					color: rgba(0,0,0,0.7)
+					margin-right: 30px
+
+					&:hover
+						color: rgba(0,0,0,1)
+
+			.copyright
+				margin: 0
+				text-transform: uppercase
+				font-size: 12
+				color: rgba(0,0,0,0.4)
+
+
